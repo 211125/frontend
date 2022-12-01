@@ -1,8 +1,8 @@
 /*Home User*/
 
 .barra-logo{
-    position: relative;
-    top: 90%;
+    position:fixed;
+    top: 88%;
 
 }
 
@@ -65,20 +65,13 @@ div.reset {
     clear: both;
 }
 
-h1{
-    width: 600px;
-    margin: 10px auto;
-}
-h2{
 
-    margin: 30px auto;
-}
 .width-650{
     width: 400px;
 
 }
 /*estrellla*/
-label{ color:orange;
+.label{ color:orange;
 
 }
 .black{
@@ -123,7 +116,7 @@ input[type = "radio"]{ display:none;}
 .fotos svg { margin-left:60px; }
 #global {
 	position: relative;
-    top: 50px;
+    top: 80px;
 	height: 20em;
   line-height: 1em;
   overflow-x: hidden;
