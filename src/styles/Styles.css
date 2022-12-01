@@ -2,7 +2,7 @@
 
 .barra-logo{
     position: relative;
-    top: 40%;
+    top: 90%;
 
 }
 
@@ -42,7 +42,7 @@ div.user img.derecha {
 }
 div.user img.izquierda {
     float: left;
-    margin-right: 15px;
+    margin-right: 65px;
 }
 @keyframes mover {
     0%{
@@ -52,6 +52,7 @@ div.user img.izquierda {
         transform: translateX(0%);
     }
 }
+.in{background-color:transparent;}
 div.taxistas img.derecha {
     float: right;
     margin-left: 15px;
@@ -97,6 +98,13 @@ input[type = "radio"]{ display:none;}
     direction: rtl;
     unicode-bidi: bidi-override;
 }
+.apsolute{
+    width: 700px;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    
+}
 .from{
     width: 300px;
     
@@ -107,14 +115,15 @@ input[type = "radio"]{ display:none;}
     position: relative;
     border-radius: 10px;
     border-bottom-color: #61dafb;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
-body{
-    background-color: #f9fafb;
-}
+
 .fotos svg { margin-left:60px; }
 #global {
-	
+	position: relative;
+    top: 50px;
 	height: 20em;
   line-height: 1em;
   overflow-x: hidden;
@@ -132,6 +141,7 @@ body{
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb{
+   
     border-radius: 10px;
     background-color: rgb(12, 186, 157); 
     background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
